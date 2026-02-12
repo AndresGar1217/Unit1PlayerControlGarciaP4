@@ -13,9 +13,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        verticalInput = Input.GetAxis("Vertical");
 
         transform.Rotate(Vector3.right * verticalInput * Time.deltaTime * rotationSpeed);
         
     }
 }
+ss
